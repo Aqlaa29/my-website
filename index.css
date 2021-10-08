@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+body{
+    background-attachment: fixed;
+    background-color: rgb(201, 180, 180);
+    flex-direction: column;
+
+}
+
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  color: rgb(196, 207, 216);
+}
+
+p {
+  color: rgb(39, 34, 34);
+  text-align: center;
+  text-decoration: wavy;
+  font-family: monospace;
+  text-shadow: #34629e;
+  font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: medium;
+  }
+  .myname{
+    float: right;
+    color: aliceblue;
+   font-size: xx-large;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(22, 4, 65);
+    text-decoration: none;
+
+  }
+  
+  .active {
+    background-color: #34629e;
+    text-decoration: none;
+
+  }
+  .text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   justify-content: center;
+    width: 150px;
+    height: 150px;
+    background: rgb(110, 109, 155);
+    transition: width 5s;
+    border-radius: 40px;
+  }
+  
+  div:hover {
+    width: 400px;
+  }
+  #center { 
+   
+    text-align: center;
+  
+    }
+    .fa {
+      padding: 40px;
+      font-size: 30px;
+      width: 100px;
+      text-align: center;
+      text-decoration: none;
+      justify-content: center;
+      border-radius: 50%;
+    }
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+     
+    }
+    .fa:hover {
+      opacity: 0.7;
+    }
+   
+  
+.footer {
+  position: fixed;
+  left: 10px;
+  bottom: 5px;
+  right: 10px; 
+  width: 50%;
+  }
